@@ -17,15 +17,21 @@ const playAgainButton = document.querySelector(".play-again");
 //Starting word to test hte game until I fetch words from API
 const word = "magnolia";
 
-const placeholder = function (word) {
-  wordInProgress.innerText = "●";
-};
+// Display symbols as placeholders for the chosen word's letters
+const placeholder = function (/*word*/) {
+  const placeholderLetters = [];
+  for (const letter of word) {
+    console.log(letter);
+    placeholderLetters.push("●");
+  }
+  wordInProgress.innerText = placeholderLetters.join("");
+}
 
 placeholder(word);
 
-guessButton.addEventListener("click"), function (e) {
+guessButton.addEventListener("click", function (e) {
   e.preventDefault(); //prevents the default behavior of clicking a button, the form submitting, and then reloading the page
   const guess = letterInput.value;
   console.log(guess);
   letterInput.value = "";
-};
+});
