@@ -12,7 +12,7 @@ It's built with HTML, CSS, and JavaScript.
 
 ## Usage
 
-To use the application, simply open the `index.html` file in your web browser. Enter a letter to start guessing the word. Remember, you have a limited number of guesses, so choose wisely!
+To use the application, visit the following link: [https://jhock9.github.io/guess-the-word/](https://jhock9.github.io/guess-the-word/). Enter a letter to start guessing the word. Remember, you have a limited number of guesses, so choose wisely!
 
 ## Contact
 
